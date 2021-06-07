@@ -14,7 +14,7 @@ const paras = [
 	"Green is the prime color of the world, and that from which its loveliness arises.",
 	"Blue has no dimensions, it is beyond dimensions. ...",
 	"If the family were a fruit, it would be an orange, a circle of sections, held together but separable - each segment distinct.",
-	"I don't have a purple problem, I have a purple passion!",
+	"You don't have a purple problem, You have a purple passion!",
 	"You are someone's reason to smile"
 ];
 
