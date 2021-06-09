@@ -14,7 +14,7 @@ const paras = [
 	"Green is the prime color of the world, and that from which its loveliness arises.",
 	"Blue has no dimensions, it is beyond dimensions. ...",
 	"If the family were a fruit, it would be an orange, a circle of sections, held together but separable - each segment distinct.",
-	"You don't have a purple problem, You have a purple passion!",
+	"I don't have a purple problem, I have a purple passion!",
 	"You are someone's reason to smile"
 ];
 
@@ -36,27 +36,7 @@ for(let color of colors) {
 		h1.innerText = "You have selected: ";
 		selectedColor.innerText = box.style.backgroundColor;
 		selectedColor.style.backgroundColor = box.style.backgroundColor;
-		if(box.style.backgroundColor == colors[0]){
-			para.innerText = paras[0];
-		}
-		if(box.style.backgroundColor == colors[1]){
-			para.innerText = paras[1];
-		}
-		if(box.style.backgroundColor == colors[2]){
-			para.innerText = paras[2];
-		}
-		if(box.style.backgroundColor == colors[3]){
-			para.innerText = paras[3];
-		}
-		if(box.style.backgroundColor == colors[4]){
-			para.innerText = paras[4];
-		}
-		if(box.style.backgroundColor == colors[5]){
-			para.innerText = paras[5];
-		}
-		if(box.style.backgroundColor == colors[6]){
-			para.innerText = paras[6];
-		}
+		para.innerText = paras.find((p, i) => box.style.backgroundColor === colors[i])
 	});
 	
 	
